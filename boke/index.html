@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="js/vue.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<a href="#">首页</a>
+			</li>
+			<li>
+				<a href="#">发布动态</a>
+			</li>
+			<li>
+				<a href="#">个人中心</a>
+			</li>
+		</ul>
+		<div class="ding">
+			<text class="nickname">山海人间</text>
+		</div>
+		<div class="zhu">
+			<div class="you">
+				<div class="imga">
+					<img class="touxaing" src="./img/bizhi.jpg" />
+				</div>
+				<div class="qianming">
+					我无法保证将来我们会永远在一起，横亘在我们面前的是那沉重的人生与漫长的岁月。
+				</div>
+			</div>
+			<div class="zhong">
+				
+			</div>
+			<div class="zuo"></div>
+		</div>
+		
+	</body>
+</html>
+<style type="text/css">
+	.qianming{
+		text-align: center;
+		font-size: 14px;
+		color: #FFFFFF;
+		margin: 0 10px;
+	}
+	.ding{
+		width: 80vw;
+		height: 5vh;
+		margin: 0 10vw;
+		/* margin-top: 5vh; */
+		display: flex;
+		flex-direction: row;
+		background-color: brown;
+	}
+	.nickname{
+		font-size: 24px;
+		font-family: "黑体";
+		color: #FFFAF0;
+	}
+	.imga{
+		margin: 2vw 2vw;
+	}
+	.touxaing{
+		width: 7vw;
+		height: 7vw;
+		border-radius: 50%;
+	}
+	.zuo{
+		width: 12vw;
+		height: 90vh;
+		background-color: darkblue;
+	}
+	.zhong{
+		width: 56vw;
+		height: 90vh;
+		background-color: aqua;
+	}
+	.you{
+		width: 12vw;
+		height: 90vh;
+		background-color: darkblue;
+	}
+	body{
+		background-image: url(img/bizhi.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.zhu{
+		width: 80vw;
+		height: 90vh;
+		margin: 0 10vw;
+		display: flex;
+		flex-direction: row;
+	}
+	ul {
+	    list-style-type: none;
+	    margin: 0;
+	    padding: 0;
+	    overflow: hidden;
+	    background-color: #333;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		background-image: url(img/bizhi.jpg);
+		background-repeat: no-repeat;
+		background-size: 100vw 100vh;
+	}
+	
+	li {
+	    /* float: left; */
+		width: 20%;
+	}
+	
+	li a {
+	    display: block;
+	    color: white;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	}
+	
+	li a:hover {
+	    background-color: #111;
+	}
+</style>
