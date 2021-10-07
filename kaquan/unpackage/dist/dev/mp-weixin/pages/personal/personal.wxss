@@ -1,0 +1,121 @@
+
+.content{
+	width: 100%;
+	height: 100%;
+}
+.zhutou{
+	width: 90vw;
+	height: 50rpx;
+	margin: 5vw;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	border-radius:0  10rpx  0 10rpx;
+}
+.zhutou_nei{
+	width: 90vw;
+	height: 50rpx;
+	text-align: center;
+}
+.zhutou_ziti{
+	color: #FFFFFF;
+	font-size: 25rpx;
+	line-height: 50rpx;
+}
+.neirong_b{
+	padding: 5vw;
+}
+.zhu_xingxi{
+	width: 90vw;
+	
+	height: 350rpx;
+	border: #007AFF 2rpx solid;
+}
+.jibenxingxi{
+	width: 90vw;
+	height: 50rpx;
+	background-color: #007AFF;
+	text-align: center;
+	margin-bottom: 30rpx;
+}
+.shoukuanxingxi{
+	width: 90vw;
+	height: 50rpx;
+	text-align: center;
+	margin-bottom: 30rpx;
+	background-color: #ffd6ed;
+}
+.zhu_xingming{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	width: 80vw;
+	margin-left: 5vw;
+}
+.xingming{
+	margin-left: 30rpx;
+	border-top-left-radius: 5rpx;
+	border-bottom-left-radius: 5rpx;
+	height: 50rpx;
+	width: 15vw;
+	background-color: #e6e6e6;
+	text-align: center;
+}
+.zhenshi{
+	margin-left: 30rpx;
+	border-top-left-radius: 5rpx;
+	border-bottom-left-radius: 5rpx;
+	width: 180rpx;
+	height: 60rpx;
+	text-align: center;
+	background-color: #e6e6e6;
+}
+.huiseziti{
+	font-size: 25rpx;
+	color: #333333;
+	line-height: 60rpx;
+}
+.input_b{
+	width: 420rpx;
+	height: 57rpx;
+	border: #C0C0C0 1rpx solid;
+}
+.hongseziti{
+	font-size: 25rpx;
+	color: #DD524D;
+	line-height: 42rpx;
+}
+.input{
+	width: 55vw;
+	height: 42rpx;
+	border: #C8C7CC 1rpx solid;
+	padding: 3rpx 3rpx 0 15rpx;
+}
+input{
+	width: 55vw;
+	height: 42rpx;
+	font-size: 25rpx;
+	padding: 3rpx 0 3rpx 15rpx;
+}
+.zhu_shoukuan{
+	width: 90vw; 
+	height: 240rpx;
+	border: #e6e6e6 2rpx solid;
+	margin-top: 80rpx;
+}
+.baocun{
+	width: 90vw;
+	height: 50rpx;
+	background-color: #007AFF;
+	text-align: center;
+	margin-top: 40rpx;
+}
+

@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/quanma_manage/quanma_manage",
+    "pages/personal/personal"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#808080",
+    "selectedColor": "#ff4b0f",
+    "backgroundColor": "#C0C0C0",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/maiquan.png",
+        "selectedIconPath": "static/smaiquan.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/quanma_manage/quanma_manage",
+        "iconPath": "static/guanli.png",
+        "selectedIconPath": "static/sguanli.png",
+        "text": "流水"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "iconPath": "static/personal-icon.png",
+        "selectedIconPath": "static/personal-sicon.png",
+        "text": "个人中心"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap12.json"
+}

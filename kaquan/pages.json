@@ -1,0 +1,94 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom",
+				"navigationBarTitleText":"佳晖代理券码"
+			}
+		},
+		// {
+		//     "path" : "pages/liushui/liushui",
+		//     "style" :                                                                                    
+		//     {
+		//         "navigationBarTitleText": "交易流水",
+		//         "enablePullDownRefresh": false,
+		// 		"navigationBarBackgroundColor":"#808080",
+		// 		"navigationBarTextStyle":"white"
+		//     }
+		    
+		// },	
+		{
+			"path": "pages/quanma_manage/quanma_manage",
+			"style": {
+				"navigationBarTitleText": "流水",
+				"navigationStyle":"custom"
+			
+			}
+	},	
+		{
+		    "path" : "pages/personal/personal",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人中心",
+		        "navigationStyle":"custom"
+		    }
+		    
+		}
+    //     {
+    //         "path" : "pages/maiquan/maiquan",
+    //         "style" :                                                                                    
+    //         {
+    //             "navigationBarTitleText": "选择券码大类",
+    //             "enablePullDownRefresh": false,
+				// "navigationBarBackgroundColor":"#808080",
+				// "navigationBarTextStyle":"white"
+    //         }
+            
+    //     }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"color":"#808080",
+		"selectedColor":"#ff4b0f",
+		"backgroundColor":"#C0C0C0",		
+		"list":[
+			// {
+			// 	"pagePath":"pages/maiquan/maiquan",
+			// 	"iconPath":"static/maiquan.png",
+			// 	"selectedIconPath":"static/smaiquan.png",
+			// 	"text":"卖券"
+			// },
+		{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/maiquan.png",
+			"selectedIconPath":"static/smaiquan.png",
+			"text":"首页"
+		}, 
+		// {
+		// 	"pagePath":"pages/liushui/liushui",
+		// 	"iconPath":"static/guanli.png",
+		// 	"selectedIconPath":"static/sguanli.png",
+		// 	"text":"交易流水"
+		// },
+		{
+			"pagePath":"pages/quanma_manage/quanma_manage",
+			"iconPath":"static/guanli.png",
+			"selectedIconPath":"static/sguanli.png",
+			"text":"流水"
+		},
+		{
+			"pagePath":"pages/personal/personal",
+			"iconPath":"static/personal-icon.png",
+			"selectedIconPath":"static/personal-sicon.png",
+			"text":"个人中心"
+		}
+		]
+	}
+}
